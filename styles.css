@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-item:center;
+}
+
+.hero img{
+	width:50%;
+	height:200px;
+	object-fit:cover;
+}
+.hero div{
+   text-align:center;
+}
+.hero button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:2px;
+}
